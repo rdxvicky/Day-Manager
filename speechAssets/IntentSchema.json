@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "intent": "AddPersonIntent",
+      "slots": [
+        {
+          "name": "Person",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "AddTaskIntent",
+      "slots": [
+        {
+          "name": "Person",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "Task",
+          "type": "LIST_OF_TASKS"
+        }
+      ]
+    },
+    {
+      "intent": "ListTasksIntent",
+      "slots": [
+        {
+          "name": "Person",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "RemoveTaskIntent",
+      "slots": [
+        {
+          "name": "Person",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "Number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "ClearTasksIntent",
+      "slots": [
+        {
+          "name": "Person",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "ResetIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

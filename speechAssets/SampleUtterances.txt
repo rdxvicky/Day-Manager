@@ -1,0 +1,37 @@
+AddPersonIntent add {Person}
+AddPersonIntent create {Person}
+AddPersonIntent setup {Person}
+
+AddTaskIntent tell {Person} to {Task}
+AddTaskIntent remind {Person} to {Task}
+AddTaskIntent ask {Person} to {Task}
+AddTaskIntent add {Task} for {Person}
+
+ListTasksIntent what are the tasks for {Person}
+ListTasksIntent what are the items for {Person}
+ListTasksIntent what are {Person} tasks
+ListTasksIntent what are {Person} items
+ListTasksIntent list tasks for {Person}
+ListTasksIntent list items for {Person}
+ListTasksIntent {Person}
+
+RemoveTaskIntent remove task {Number} for {Person}
+RemoveTaskIntent remove item {Number} for {Person}
+RemoveTaskIntent delete task {Number} for {Person}
+RemoveTaskIntent delete item {Number} for {Person}
+RemoveTaskIntent remove {Person} task {Number}
+RemoveTaskIntent remove {Person} item {Number}
+RemoveTaskIntent delete {Person} task {Number}
+RemoveTaskIntent delete {Person} item {Number}
+
+ClearTasksIntent clear tasks for {Person}
+ClearTasksIntent clear items for {Person}
+ClearTasksIntent delete tasks for {Person}
+ClearTasksIntent delete items for {Person}
+ClearTasksIntent delete {Person} tasks
+ClearTasksIntent delete {Person} items
+ClearTasksIntent clear {Person} items
+
+ResetIntent clear
+ResetIntent reset
+ResetIntent start over
